@@ -1,18 +1,30 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="../assets/HRI-Bohol-Cebu-Tours-logo-1_optimized-1.png">
+    <FirstSection/>
+    <SecondSection/>
+    <ThirdSection/>
+    <FourthSection/>
+    <BoholTour/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+  // @ is an alias to /src
+  import FirstSection from "@/components/FirstSection.vue";
+  import SecondSection from "../components/SecondSection";
+  import ThirdSection from "../components/ThirdSection";
+  import FourthSection from "../components/FourthSection";
+  import BoholTour from "../components/BoholTour";
 
-export default {
-  name: 'home',
-  components: {
-    HelloWorld
+  export default {
+    name: 'home',
+    components: {
+      BoholTour,
+      FourthSection,
+      ThirdSection,
+      SecondSection,
+      FirstSection
+    }
   }
-}
 </script>
