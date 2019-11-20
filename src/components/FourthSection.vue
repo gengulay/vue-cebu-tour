@@ -1,8 +1,10 @@
 <template>
 
-  <div class="alert alert-success row" role="alert">
-    HRI Tour Packages and Services
-  </div>
+    <div class="alert alert-success" role="alert">
+      <span>
+        HRI Tour Packages and Services
+      </span>
+    </div>
 
 </template>
 

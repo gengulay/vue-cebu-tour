@@ -6,6 +6,9 @@
     <ThirdSection/>
     <FourthSection/>
     <BoholTour/>
+    <FirstCarousel/>
+    <TestimonialSection/>
+    <Footer/>
   </div>
 </template>
 
@@ -16,6 +19,9 @@
   import ThirdSection from "../components/ThirdSection";
   import FourthSection from "../components/FourthSection";
   import BoholTour from "../components/BoholTour";
+  import FirstCarousel from "../components/FirstCarousel";
+  import TestimonialSection from "../components/TestimonialSection";
+  import Footer from "../components/Footer";
 
   export default {
     name: 'home',
@@ -24,7 +30,10 @@
       FourthSection,
       ThirdSection,
       SecondSection,
-      FirstSection
+      FirstSection,
+      FirstCarousel,
+      TestimonialSection,
+      Footer
     }
   }
 </script>
